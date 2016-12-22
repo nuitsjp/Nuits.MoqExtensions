@@ -1,4 +1,4 @@
-# Nuits.MockExtensions
+# Nuits.MoqExtensions
 It is a extension library to use the Moq.
 
 Now only one thing.  
