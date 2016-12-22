@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Nuits.MoqExtensions</id>
+    <title>Nuits.MoqExtensions</title>
+    <version>1.0.0</version>
+    <authors>nuits.jp</authors>
+    <owners>nuits.jp</owners>
+    <licenseUrl>https://github.com/nuitsjp/Nuits.MoqExtensions/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/nuitsjp/Nuits.MoqExtensions</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Extension library for Moq.</description>
+    <releaseNotes>New release.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>moq mock unittest</tags>
+    <dependencies>
+      <dependency id="Moq" version="4.5.29.0" />
+      <dependency id="Castle.Core" version="3.3.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+		<file src="bin\Release\Nuits.MoqExtensions.dll" target="lib\net45" />
+		<file src="bin\Release\Nuits.MoqExtensions.dll" target="lib\net46" />
+  </files>
+</package>
